@@ -19,7 +19,7 @@ const inquiryFormSubmission = async(req , res) => {
         return res.status(200).json({message: "Form Submitted Successfully"})
 
     } catch (error) {
-        return res.status(500).json({message: "Form Submission Failed"}, error)
+        return res.status(500).json({message: `Form Submission Failed: ${error}`})
     }
 }
 

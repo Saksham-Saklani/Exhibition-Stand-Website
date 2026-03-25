@@ -14,6 +14,9 @@ app.use(cors({
 
 app.use(express.json())
 
+app.get('/',(req,res)=>{
+    res.send('hello backend!')
+})
 
 app.use('/api',contactRouter)
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { useNavigate} from 'react-router-dom'
+import { TbCircleTriangle } from "react-icons/tb";
 
 function Footer() {
   const navigate = useNavigate()
@@ -12,7 +13,10 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Info */}
           <div>
-            <h2 className="text-3xl font-bold text-orange-600 mb-6">mavonorm</h2>
+            <div className="flex items-start gap-2">
+                <TbCircleTriangle className="text-orange-600 text-3xl md:text-4xl" />
+                <h2 className="text-3xl font-bold text-orange-600 mb-6">mavonorm</h2>
+            </div>
             <p className="text-gray-500 font-light leading-relaxed mb-6">
               Premier exhibition stand design and build specialists. We turn ordinary spaces into extraordinary brand experiences globally.
             </p>

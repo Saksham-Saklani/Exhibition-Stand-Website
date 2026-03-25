@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MenuIcon, X } from 'lucide-react'; 
+import { TbCircleTriangle } from "react-icons/tb";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,9 +9,11 @@ function Navbar() {
 
   return (
     <nav className="flex justify-between items-center px-4 md:px-8 py-5 shadow-sm sticky top-0 bg-white/95 backdrop-blur-md z-50 border-b border-gray-100">
+        <div className="flex items-center justify-center gap-2"><TbCircleTriangle className="text-orange-600 text-3xl md:text-4xl" />
       <h1 className="text-2xl md:text-3xl font-bold text-orange-600 tracking-tight">
         mavonorm
       </h1>
+      </div>
 
       <div className="hidden md:flex gap-10 items-center">
         <button onClick={() => navigate("/")} className="text-gray-600 hover:text-orange-600 text-sm font-semibold uppercase tracking-wider transition-colors cursor-pointer">Home</button>

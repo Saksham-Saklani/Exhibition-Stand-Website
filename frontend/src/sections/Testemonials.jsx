@@ -1,23 +1,27 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import avatar1 from '../assets/avatar1.jpg'
+import avatar2 from '../assets/avatar2.jpg'
+import avatar3 from '../assets/avatar3.jpg'
+
 
 const testimonials = [
   {
     name: 'Sarah Jenkins',
     company: 'TechFlow Solutions',
-    image: 'https://randomuser.me/api/portraits/women/44.jpg',
+    image: avatar1,
     review: 'The team delivered an exceptional modular stand that completely transformed our presence at the annual trade show. Their attention to detail and on-site support were phenomenal.',
   },
   {
     name: 'Michael Chen',
     company: 'Global Innovate',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+    image: avatar2,
     review: 'From the initial 3D designs to the final build, the process was seamless. The custom exhibition stand they built for us was the highlight of the event.',
   },
   {
     name: 'Emma Rossi',
     company: 'Visionary Dynamics',
-    image: 'https://randomuser.me/api/portraits/women/68.jpg',
+    image: avatar3,
     review: 'Professional, creative, and highly reliable. They handled all the logistics so we could focus on networking with our clients. Highly recommended!',
   }
 ];

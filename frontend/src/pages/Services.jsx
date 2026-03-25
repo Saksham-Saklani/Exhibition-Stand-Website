@@ -1,6 +1,11 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 import CTA from '../sections/CTA';
+import heroBanner from '../assets/heroBanner.jpg'
+import aboutImage from '../assets/about-img.webp';
+import portfolio1 from '../assets/portfolio1.jpg'
+import portfolio3 from '../assets/portfolio3.jpg'
+import portfolioBanner from '../assets/portfolioBanner.jpg'
 
 const services = [
   {
@@ -8,28 +13,28 @@ const services = [
     title: 'Custom Exhibition Stands',
     description: 'We design bespoke architecture that translates your brand\'s DNA into physical space. From double-decker structures to seamless curved LED walls, our custom stands guarantee a show-stopping presence.',
     features: ['3D Conceptualization', 'Premium Materials', 'Interactive Displays', 'Dedicated Project Manager'],
-    image: 'https://designbullz.com/wp-content/uploads/2024/10/2-scaled.jpg'
+    image: portfolio1
   },
   {
     id: 2,
     title: 'Modular Solutions',
     description: 'Our modular systems provide maximum flexibility and cost-efficiency without compromising on high-end aesthetics. Perfect for brands with an active multi-show calendar.',
     features: ['Reusable Frameworks', 'Scalable Designs', 'Rapid Installation', 'Eco-Friendly Options'],
-    image: 'https://www.expoexhibitionstands.com/wp-content/uploads/2025/03/img-20241121-wa0310.webp'
+    image: aboutImage
   },
   {
     id: 3,
     title: 'Pavilion Design',
     description: 'Representing a country or large consortium requires scale and cohesion. We specialize in designing massive pavilion spaces that guide foot traffic effortlessly through multiple vendor zones.',
     features: ['Zone Mapping', 'Wayfinding Signage', 'Mass Scale Procurement', 'On-site Hospitality'],
-    image: 'https://spectracreatives.com/wp-content/uploads/2025/08/india-warehousing-show-2-1030x771.jpg'
+    image: portfolio3
   },
   {
     id: 4,
     title: 'Event Logistics & Storage',
     description: 'Leave the heavy lifting to us. We handle global shipping, customs clearance, venue regulations, and secure climate-controlled storage for your exhibition assets between shows.',
     features: ['Global Freight', 'Customs Handling', 'Asset Storage', 'Maintenance & Repair'],
-    image: 'https://www.showplace.co.uk/wp-content/uploads/2025/01/DSC2144.jpg'
+    image: portfolioBanner
   }
 ];
 
@@ -41,7 +46,7 @@ function Services() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden bg-gray-900 border-b border-gray-100">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://www.displayint.com/files/display/images/content/projekte/spitze-innotrans-berlin-2022/stage/messebau-spitzke-2022-innotrans-berlin-stage.jpg" 
+            src={heroBanner}
             alt="Mavonorm Services" 
             className="w-full h-full object-cover object-bottom opacity-20"
           />

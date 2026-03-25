@@ -1,6 +1,8 @@
 import React from 'react';
 import { Target, Globe, Award, MapPin, Building2, Users, Handshake, UserStar} from 'lucide-react';
 import CTA from '../sections/CTA';
+import aboutBanner from '../assets/aboutBanner.jpg';
+import aboutImage from '../assets/about-img.webp';
 
 
 const stats = [
@@ -22,7 +24,7 @@ function About() {
       <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden bg-gray-900 border-b border-gray-100">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://mindspiritdesign.com/wp-content/uploads/2025/04/Why-Choosing-the-Right-Exhibition-Stand-Manufacturer-Matters.jpg" 
+            src={aboutBanner} 
             alt="About Mavonorm" 
             className="w-full h-full object-cover opacity-30"
           />
@@ -63,7 +65,7 @@ function About() {
           <div className="w-full md:w-1/2 relative">
             <div className="absolute inset-0 bg-orange-600 translate-x-4 translate-y-4 rounded-lg z-0"></div>
             <img 
-              src="https://www.expoexhibitionstands.com/wp-content/uploads/2025/03/img-20241121-wa0310.webp" 
+              src={aboutImage} 
               alt="Mavonorm Team at work" 
               className="relative z-10 w-full h-auto rounded-lg shadow-xl object-cover"
             />

@@ -1,26 +1,33 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import portfolio1 from '../assets/portfolio1.jpg'
+import portfolio2 from '../assets/portfolio2.webp'
+import portfolio3 from '../assets/portfolio3.jpg'
+import portfolio4 from '../assets/portfolio4.webp'
+import portfolio5 from '../assets/portfolio5.webp'
+import portfolio6 from '../assets/portfolio6.png'
+
 
 function PortfolioPreview() {
     const navigate = useNavigate()
     const portfolio =[
         {
-            image:"https://designbullz.com/wp-content/uploads/2024/10/2-scaled.jpg"
+            image:portfolio1
         },
         {
-            image:"https://www.arabexpo.me/wp-content/uploads/2024/09/blog-4-scaled.jpg"
+            image:portfolio2
         },
         {
-            image:"https://spectracreatives.com/wp-content/uploads/2025/08/india-warehousing-show-2-1030x771.jpg"
+            image:portfolio3
         },
         {
-            image:"https://exhibitnstandsbuilder.com/wp-content/uploads/2025/03/Top-exhibition-stand-builders-in-Europe.jpg"
+            image:portfolio4
         },
         {
-            image:"https://i0.wp.com/crystalcraftexpo.com/wp-content/uploads/2025/09/veolia.jpg?fit=800%2C600&ssl=1"
+            image:portfolio5
         },
         {
-            image:"https://quantumintegrated.in/wp-content/uploads/2025/06/2-1536x864.png"
+            image:portfolio6
         },
     ]
   return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import heroBanner from '../assets/heroBanner.jpg';
 
 function Hero() {
   const navigate = useNavigate()
@@ -8,7 +9,7 @@ function Hero() {
 
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://www.displayint.com/files/display/images/content/projekte/spitze-innotrans-berlin-2022/stage/messebau-spitzke-2022-innotrans-berlin-stage.jpg" 
+          src={heroBanner} 
           alt="Exhibition Hero Banner" 
           className="w-full h-full object-cover object-bottom scale-105"
         />

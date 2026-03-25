@@ -1,65 +1,78 @@
 import React from 'react';
 import CTA from '../sections/CTA';
+import portfolio1 from '../assets/portfolio1.jpg'
+import portfolio2 from '../assets/portfolio2.webp'
+import portfolio3 from '../assets/portfolio3.jpg'
+import portfolio4 from '../assets/portfolio4.webp'
+import portfolio5 from '../assets/portfolio5.webp'
+import portfolio6 from '../assets/portfolio6.png'
+import portfolio7 from '../assets/portfolio7.jpg'
+import portfolio8 from '../assets/portfolio8.jpg'
+import aboutImage from '../assets/about-img.webp';
+import portfolio10 from '../assets/portfolio10.webp'
+import portfolio11 from '../assets/portfolio11.jpg'
+import portfolio12 from '../assets/portfolio12.jpg'
+
 
 const portfolioItems = [
   {
     title: 'Global Tech Expo',
-    image: 'https://designbullz.com/wp-content/uploads/2024/10/2-scaled.jpg',
+    image: portfolio1,
     location: 'Dubai'
   },
   {
     title: 'Health & Wellness Summit',
-    image: 'https://www.arabexpo.me/wp-content/uploads/2024/09/blog-4-scaled.jpg',
+    image: portfolio2,
     location: 'Berlin'
   },
   {
     title: 'Auto Show Pavilion',
-    image: 'https://spectracreatives.com/wp-content/uploads/2025/08/india-warehousing-show-2-1030x771.jpg',
+    image: portfolio3,
     location: 'Las Vegas'
   },
   {
     title: 'Future Energy Forum',
-    image: 'https://exhibitnstandsbuilder.com/wp-content/uploads/2025/03/Top-exhibition-stand-builders-in-Europe.jpg',
+    image: portfolio4,
     location: 'Frankfurt'
   },
   {
     title: 'Smart City Expo',
-    image: 'https://i0.wp.com/crystalcraftexpo.com/wp-content/uploads/2025/09/veolia.jpg?fit=800%2C600&ssl=1',
+    image: portfolio5,
     location: 'Spain'
   },
   {
     title: 'Gaming Convention',
-    image: 'https://quantumintegrated.in/wp-content/uploads/2025/06/2-1536x864.png',
+    image: portfolio6,
     location: 'Italy'
   },
   {
     title: 'Aviation Summit',
-    image: 'https://sdragon.com.vn/wp-content/uploads/2025/12/thiet-ke-gian-hang-trien-lam-2026-1.jpg',
+    image: portfolio7,
     location: 'Kuwait'
   },
   {
     title: 'Construction Expo',
-    image: 'https://www.exhibition-booth-design.com/wp-content/uploads/2024/04/02-4-1.jpg',
+    image: portfolio8,
     location: 'California'
   },
   {
     title: 'Marketing Week',
-    image: 'https://www.expoexhibitionstands.com/wp-content/uploads/2025/03/img-20241121-wa0310.webp',
+    image: aboutImage,
     location: 'Qatar'
   },
   {
     title: 'ComiCon',
-    image: 'https://www.quadrant2design.com/wp-content/uploads/2025/01/Mighty-Jaxx-Exhibition-Stand-by-Quadrant2Design.jpg',
+    image: portfolio10,
     location: 'New York'
   },
   {
     title: 'RSA Conference',
-    image: 'https://expopartner.dk/wp-content/uploads/2026/02/IMG_0376_red_komp.jpg',
+    image: portfolio11,
     location: 'Saudi Arabia'
   },
   {
     title: 'EVT',
-    image: 'https://www.popology.com.au/wp-content/uploads/2024/08/Pop_Clients_EVT-768x522.jpg',
+    image: portfolio12,
     location: 'Sydney'
   },
 ];

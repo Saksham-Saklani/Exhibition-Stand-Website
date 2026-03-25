@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import axios from "axios";
+import contactBanner from "../assets/contactBanner.avif";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -48,9 +49,9 @@ function Contact() {
       <section className="relative w-full h-[35vh] flex items-center justify-center overflow-hidden bg-gray-900">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop"
+            src={contactBanner}
             alt="Contact Mavonorm"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover object-bottom opacity-30"
           />
         </div>
         <div className="relative z-10 text-center text-white px-4">
